@@ -1,0 +1,144 @@
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow:0px 0px 43px 17px rgba(153, 153, 153, 1)  ;
+
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button {
+    border: 0.5px solid #999 ;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+} 
+#equal{
+    background-color: blue;
+    color: white;
+}
+.button:hover{
+    background-color: black;
+    color:white;
+    transition:  0.5s ease-in-out ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: linear-gradient(to right, #9FC9F3, #A5F1E9) ;
+}
+.calculator-grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+.calculator-grid button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: aqua;
+
+}
+.calculator-grid button:hover{
+    background-color: antiquewhite;
+}
+.span-two{
+    grid-column: span 2;
+}
+.output{
+    grid-column: 1 / -1;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+.output .previous-content{
+    color: white;
+    font-size: 1.5rem;
+}
+.output .current-content{
+    color: white;
+    font-size: 2.5rem;
+} */
